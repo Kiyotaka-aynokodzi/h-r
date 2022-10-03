@@ -1,0 +1,45 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 26px;
+}
+
+body {
+    background-color: #001;
+
+header {
+    max-width: 1320px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 170px;
+    height: 48px;
+    margin-top: 27px;
+    margin-left: 60px;
+
+nav {
+    display:flex;
+    align-items:center;
+}
+
+nav .link {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-top: 38px;
+    text-decoration: none;
+    line-height: 26px;
+}
+menu {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    justify-content: center;
+}
+       
+           
